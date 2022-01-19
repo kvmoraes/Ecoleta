@@ -1,0 +1,30 @@
+:root { /*lugar para adicionar variáveis*/
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+* { /*valido para todo o código*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*o padding não estica o tamanho da caixa, permanecendo dentro da borda*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif; /*especifica a fonte*/
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased; /*suaviza a fonte*/
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+
+
